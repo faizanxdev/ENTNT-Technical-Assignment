@@ -44,12 +44,7 @@ const AdminDashboard = () => {
         {/* Header */}
         <div className="flex justify-between items-center mb-10">
           <h1 className="text-4xl font-bold text-blue-900 tracking-tight">🦷 Admin Dashboard</h1>
-          <button
-            onClick={handleLogout}
-            className="flex items-center gap-2 bg-red-500 text-white px-5 py-2 rounded-lg hover:bg-red-600 transition-all font-medium cursor-pointer shadow-sm"
-          >
-            <FaSignOutAlt className="text-lg" /> Logout
-          </button>
+          
         </div>
 
         {/* KPI Cards */}
